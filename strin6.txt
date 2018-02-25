@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int age;
+	char name[30];
+	printf("enter name and age of the person");
+	scanf("%s%d",&name,&age);
+	if(age<=18)
+	{ printf("person is not eliginble for gate");
+	}
+	else if(age>=20)
+	{ printf("eligible to write gate");
+	}
+else
+{ printf( "exceptional case:wait for one year");
+}
+}

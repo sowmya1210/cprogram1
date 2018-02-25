@@ -1,0 +1,18 @@
+#include<stdio.h>
+struct student
+{
+	char name[20],city[20];
+	int age,contact;
+	};
+	int main ()
+	{
+		struct student s1;
+		printf("name of the stuident");
+		scanf("%s",&s1.name);
+		printf("name of the city");
+		scanf("%s",&s1.city);
+		printf("age and contact");
+		scanf("%d%d",&s1.age,&s1.contact);
+		printf("detailsof the student:\nname is:%s\ncity:%s\nage:%d\ncontact:%d",s1.name,s1.city,s1.age,s1.contact);
+		return 0;
+	}

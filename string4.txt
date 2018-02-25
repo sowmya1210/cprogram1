@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{ 
+char e;
+float b;
+int c;
+printf("enter the values");
+scanf("%s%f%d",e,&f,&c);
+int total,avg;
+total=int(e)+int(b)+c;
+avg=total/3;
+printf("average value is %d",avg);
+return 0;
+}

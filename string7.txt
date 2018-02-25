@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+	char u1[30],p1[30],u2[30],p2[30];
+	char u[30],p[30];
+strcpy(u,"nikitha");
+strcpy(p,"money");
+	printf("enter usernameand pasword");
+	scanf("%s%s",&u1,&p1);
+	printf("enter new username and pasword");
+	scanf("%s%s",&u2,&p2);
+	if(strcmp(u1,u)==0 && strcmp(p1,p)==0)
+	{
+		printf("login to the page");
+	}
+	else if(strcmp(u2,u)==0&&strcmp(p2,p)==0)
+	{
+		printf("login to the page");
+	}
+	else
+	{
+	
+	printf("invalid id");
+	}
+
+}

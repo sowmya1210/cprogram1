@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char name[20],jod[30],mail[40],add[60];
+	int contact[10];
+	printf("enter name,job,mail,add,contact");
+	scanf("%s",name);
+	scanf("%s",job);
+	scanf("%s",mail);
+	scanf("%s",add);
+	scanf("%d",&contact);
+
+	printf("%s\n%s\n%s\n%s\n%d",name,job,mai,add,contact);
+	return 0
+}
