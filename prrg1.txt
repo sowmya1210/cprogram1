@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int sum_from_to (int first, int last)
+{
+int i, partial_sum = 0;
+if (first <= last)
+for (i = first; i <= last; ++i)
+partial_sum += i;
+else
+for (i = first; i >= last; --i)
+partial_sum += i;
+return partial_sum;
+}
+
+int main(){
+ 
+ int n1=4, n2=7;
+ cout<<sum_from_to(n1, n2)<<endl;
+ system("pause");
+}
+
+

@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n1,n2,n3,n4;
+    cout<<"Please enter your 4 numbers:";
+    cin>>n1>>n2>>n3>>n4;
+  
+    cout<<"\nYour numbers forward:\n";
+    cout<<n1<< "\n"<<n2<<"\n" <<n3<<"\n"<<n4<<"\n";
+    cout<< "Your numbers reversed:\n";
+    cout<<n4<<"\n"<<n3 <<"\n"<<n2<<"\n"<<n1<<"\n";
+   
+ system("PAUSE");
+}
